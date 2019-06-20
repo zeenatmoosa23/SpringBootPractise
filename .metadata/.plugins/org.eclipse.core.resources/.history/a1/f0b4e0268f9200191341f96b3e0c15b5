@@ -1,0 +1,5 @@
+package com.example.externalization;
+
+public class LocalizationConfig {
+
+}

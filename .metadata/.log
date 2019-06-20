@@ -1,0 +1,1237 @@
+!SESSION 2019-06-18 21:36:27.968 -----------------------------------------------
+eclipse.buildId=4.2.2.201905232009-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-19 02:48:05.255
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-19 02:48:08.227
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-19 02:48:08.227
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7eebb316,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45273d40,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-19 02:48:29.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:57:12.494
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:57:12.524
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@75937998[org.springframework.tooling.boot.ls:1.7.0.201905231938(id=623)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:57:12.596
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:57:13.602
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.ui 2 2 2019-06-19 03:57:22.483
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:06.495
+!MESSAGE Boot LS startup time from start to initialized: 53762ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:06.925
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WyGamkTh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:06.938
+!MESSAGE subscribing to classpath changes: sts4.classpath.WyGamkTh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:06.956
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:06.973
+!MESSAGE subsribers = [sts4.classpath.WyGamkTh]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:07.028
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:07.185
+!MESSAGE project myfirstspringboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:07.197
+!MESSAGE project myfirstspringboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:07.213
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 03:58:07.221
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WyGamkTh => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:03:41.767
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:03:41.790
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:03:41.790
+!MESSAGE Missing org.springframework.boot:spring-boot-starter:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:03:54.804
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-logging:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-logging:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:03:54.805
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:03:54.805
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-logging:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:02.262
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:02.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:02.499
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:02.525
+!MESSAGE executing callback sts4.classpath.WyGamkTh myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:04.561
+!MESSAGE executing callback sts4.classpath.WyGamkTh FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-06-19 04:04:04.649
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:08.323
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:09.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:09.304
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:09.504
+!MESSAGE executing callback sts4.classpath.WyGamkTh myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:11.533
+!MESSAGE executing callback sts4.classpath.WyGamkTh FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-06-19 04:04:11.625
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:04:17.744
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:04:17.745
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:04:17.745
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-test:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:20.581
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:20.905
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:21.136
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:21.391
+!MESSAGE executing callback sts4.classpath.WyGamkTh myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:04:21.736
+!MESSAGE executing callback sts4.classpath.WyGamkTh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:05:05.475
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:05:05.516
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:05:05.540
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:05:05.558
+!MESSAGE executing callback sts4.classpath.WyGamkTh myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:05:05.648
+!MESSAGE executing callback sts4.classpath.WyGamkTh SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:05:07.854
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:07.855
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:07.855
+!MESSAGE Missing org.springframework.boot:spring-boot-starter:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:05:08.224
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-logging:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:08.224
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:08.224
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 04:05:08.653
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:08.653
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 04:05:08.653
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 04:15:21.117
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-06-19 04:15:53.444
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [com.example.myfirstspringboot [in src/main/java/com/example/myfirstspringboot [in myfirstspringboot]] does not exist]
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:436)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:301)
+	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:260)
+	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1172)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1096)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1013)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4805)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-06-19 04:15:53.445
+!MESSAGE com.example.myfirstspringboot [in src/main/java/com/example/myfirstspringboot [in myfirstspringboot]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-06-19 04:18:08.436
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [com.example.myfirstspringboot [in src/main/java/com/example/myfirstspringboot [in myfirstspringboot]] does not exist]
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:436)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:301)
+	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:260)
+	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1172)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1096)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1013)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4805)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-06-19 04:18:08.437
+!MESSAGE com.example.myfirstspringboot [in src/main/java/com/example/myfirstspringboot [in myfirstspringboot]] does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:28.983
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:29.084
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:29.101
+!MESSAGE executing callback sts4.classpath.WyGamkTh myfirstspringboot true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:29.156
+!MESSAGE executing callback sts4.classpath.WyGamkTh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:29.987
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WyGamkTh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:30.045
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WyGamkTh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:30.073
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:18:30.093
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WyGamkTh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:08.988
+!MESSAGE Boot LS startup time from start to initialized: 16019ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.220
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YyLzAntq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.266
+!MESSAGE subscribing to classpath changes: sts4.classpath.YyLzAntq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.282
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.300
+!MESSAGE subsribers = [sts4.classpath.YyLzAntq]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.311
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.323
+!MESSAGE project myfirstspringboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.338
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.350
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.361
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YyLzAntq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.399
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.411
+!MESSAGE executing callback sts4.classpath.YyLzAntq myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 04:19:09.500
+!MESSAGE executing callback sts4.classpath.YyLzAntq SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2019-06-19 04:19:18.425
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2152)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 64 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 04:19:48.950
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 04:20:31.998
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 04:23:29.080
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:49.015
+!MESSAGE Preparing classpath changed notification externalizationApplication
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:49.235
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:49.297
+!MESSAGE classpath=61 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:49.350
+!MESSAGE executing callback sts4.classpath.YyLzAntq externalizationApplication false 61
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:49.414
+!MESSAGE executing callback sts4.classpath.YyLzAntq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:53.399
+!MESSAGE Preparing classpath changed notification externalizationApplication
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:53.414
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:53.435
+!MESSAGE classpath=61 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:53.453
+!MESSAGE executing callback sts4.classpath.YyLzAntq externalizationApplication false 61
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:18:53.485
+!MESSAGE executing callback sts4.classpath.YyLzAntq SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 05:23:02.523
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 05:24:14.401
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:31:12.058
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-thymeleaf:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:12.059
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:12.059
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:31:18.896
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-web:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:18.897
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:18.897
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-web:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:31:19.227
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-json:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:19.228
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:19.228
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-json:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:31:26.984
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-tomcat:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:26.985
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:31:26.985
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:32:36.831
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-thymeleaf:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-thymeleaf:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-thymeleaf:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:36.831
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-thymeleaf:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:36.831
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-thymeleaf:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:32:37.258
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-web:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:37.259
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:37.259
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-web:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:32:37.580
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:37.580
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:37.581
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-19 05:32:38.050
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-tomcat:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:38.050
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-19 05:32:38.050
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.1.6.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:32:38.584
+!MESSAGE Preparing classpath changed notification internationalization
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:32:38.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:32:38.677
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:32:38.696
+!MESSAGE executing callback sts4.classpath.YyLzAntq internationalization false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:32:38.732
+!MESSAGE executing callback sts4.classpath.YyLzAntq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:41:49.793
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YyLzAntq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:41:49.803
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YyLzAntq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:41:49.812
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:41:49.821
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YyLzAntq => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 05:42:56.784
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:449)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:438)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:739)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:507)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 05:42:57.801
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:449)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:438)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:739)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:507)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.091
+!MESSAGE Boot LS startup time from start to initialized: 6916ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.285
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pIhATiED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.295
+!MESSAGE subscribing to classpath changes: sts4.classpath.pIhATiED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.304
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.320
+!MESSAGE subsribers = [sts4.classpath.pIhATiED]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.328
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.336
+!MESSAGE project internationalization ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.344
+!MESSAGE Preparing classpath changed notification internationalization
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.354
+!MESSAGE project externalizationApplication ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.369
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.377
+!MESSAGE project myfirstspringboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.390
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.405
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.414
+!MESSAGE executing callback sts4.classpath.pIhATiED internationalization false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.430
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pIhATiED => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.490
+!MESSAGE executing callback sts4.classpath.pIhATiED SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.500
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.513
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.534
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.543
+!MESSAGE executing callback sts4.classpath.pIhATiED myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.569
+!MESSAGE executing callback sts4.classpath.pIhATiED SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.599
+!MESSAGE Preparing classpath changed notification externalizationApplication
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.657
+!MESSAGE classpath=61 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.687
+!MESSAGE executing callback sts4.classpath.pIhATiED externalizationApplication false 61
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:02.718
+!MESSAGE executing callback sts4.classpath.pIhATiED SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-19 05:43:04.015
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:40.211
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pIhATiED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:40.220
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pIhATiED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:40.227
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-19 05:43:40.234
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pIhATiED => OK
+!SESSION 2019-06-20 09:38:31.559 -----------------------------------------------
+eclipse.buildId=4.2.2.201905232009-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-20 09:44:42.520
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-20 09:44:52.563
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-20 09:44:52.563
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d8087da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f7ef948,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-20 09:45:40.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:45:45.661
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:45:45.709
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2781bbb8[org.springframework.tooling.boot.ls:1.7.0.201905231938(id=623)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:45:45.905
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:45:47.053
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:21.994
+!MESSAGE Boot LS startup time from start to initialized: 35999ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.149
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VlVgfaiE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.159
+!MESSAGE subscribing to classpath changes: sts4.classpath.VlVgfaiE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.170
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.179
+!MESSAGE subsribers = [sts4.classpath.VlVgfaiE]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.186
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.197
+!MESSAGE project internationalization ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.206
+!MESSAGE project externalizationApplication ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.213
+!MESSAGE Preparing classpath changed notification internationalization
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.220
+!MESSAGE project myfirstspringboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.229
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.236
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.246
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VlVgfaiE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.277
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.284
+!MESSAGE executing callback sts4.classpath.VlVgfaiE internationalization false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.393
+!MESSAGE executing callback sts4.classpath.VlVgfaiE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.432
+!MESSAGE Preparing classpath changed notification myfirstspringboot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.449
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.523
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.589
+!MESSAGE executing callback sts4.classpath.VlVgfaiE myfirstspringboot false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.645
+!MESSAGE executing callback sts4.classpath.VlVgfaiE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.665
+!MESSAGE Preparing classpath changed notification externalizationApplication
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.677
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.699
+!MESSAGE classpath=61 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.712
+!MESSAGE executing callback sts4.classpath.VlVgfaiE externalizationApplication false 61
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-20 09:46:22.735
+!MESSAGE executing callback sts4.classpath.VlVgfaiE SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-06-20 09:58:06.788
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

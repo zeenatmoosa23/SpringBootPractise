@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+<fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.example.config.AppConfig"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+</qualifiedTypeNameHistroy>

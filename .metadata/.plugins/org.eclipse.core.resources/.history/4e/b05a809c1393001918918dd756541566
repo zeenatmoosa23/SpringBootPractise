@@ -1,0 +1,11 @@
+<html>
+<body>
+	Welcome to Demo app
+	<br> Change Language
+	<select>
+		<option value="Ger">German</option>
+		<option value="Eng">English</option>
+	</select>
+</body>
+</html>
+

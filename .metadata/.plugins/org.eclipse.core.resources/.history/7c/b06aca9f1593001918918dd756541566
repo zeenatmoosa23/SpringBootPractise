@@ -1,0 +1,10 @@
+package com.example.internationalization;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class LocalizationConfig {
+@Bean
+	
+
+}
