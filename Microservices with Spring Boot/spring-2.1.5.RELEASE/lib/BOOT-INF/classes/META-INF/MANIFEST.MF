@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Boot CLI
+Automatic-Module-Name: spring.boot.cli
+Implementation-Version: 2.1.5.RELEASE
+Built-By: Spring
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.4.0
+

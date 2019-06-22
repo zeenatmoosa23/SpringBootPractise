@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;myfirstspringboot&apos;" deleteContents="false" description="Delete resource &apos;myfirstspringboot&apos;" element1="/myfirstspringboot" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1560943109029"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;myfirstspringboot&apos;" deleteContents="false" description="Delete resource &apos;myfirstspringboot&apos;" element1="/myfirstspringboot" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1560943109029"/>&#x0A;<refactoring comment="Delete resource &apos;spring-cloud-server&apos;" deleteContents="false" description="Delete resource &apos;spring-cloud-server&apos;" element1="/spring-cloud-server" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1561194791945"/>
 </session>
